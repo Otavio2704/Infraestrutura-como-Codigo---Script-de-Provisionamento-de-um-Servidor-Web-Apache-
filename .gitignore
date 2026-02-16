@@ -1,0 +1,110 @@
+# ============================================================
+# .gitignore - Provisionamento Automático de Servidor Web
+# ============================================================
+
+# ==================== LOGS ====================
+*.log
+/logs/
+provisioning.log
+
+# ==================== BACKUPS ====================
+*.bak
+*.backup
+*.old
+*.orig
+backup-web-*/
+
+# ==================== SISTEMA OPERACIONAL ====================
+
+# Linux
+*~
+.nfs*
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==================== EDITORES E IDEs ====================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.vim
+Session.vim
+*~
+
+# Nano
+*.save
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==================== ARQUIVOS TEMPORÁRIOS ====================
+*.tmp
+*.temp
+*.cache
+.tmp/
+tmp/
+temp/
+
+# ==================== CONFIGURAÇÕES LOCAIS ====================
+.env
+.env.local
+.env.*.local
+config.local.sh
+*.local
+
+# ==================== CHAVES E CREDENCIAIS ====================
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p12
+id_rsa
+id_rsa.pub
+*.secret
+
+# ==================== COMPACTADOS ====================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+
+# ==================== TESTES ====================
+test-output/
+coverage/
+*.test.log
+
+# ==================== OUTROS ====================
+node_modules/
+.vagrant/
+*.pid
+*.seed
