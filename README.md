@@ -87,6 +87,7 @@ web-server-provision/
 ├── monitor.sh          # Script de monitoramento do servidor
 ├── uninstall.sh        # Script de remoção completa
 ├── LICENSE             # Licença do projeto
+├── .gitignore          # Quais tipos de arquivos ignorar
 └── README.md           # Documentação
 ```
 
