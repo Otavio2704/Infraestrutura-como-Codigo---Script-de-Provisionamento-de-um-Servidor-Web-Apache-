@@ -496,7 +496,7 @@ mais detalhes.
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Seu Nome**
+Desenvolvido por **Otávio Guedes**
 
 <p align="left">
   <a href="https://github.com/Otavio2704">
